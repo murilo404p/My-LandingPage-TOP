@@ -6,11 +6,6 @@ body {
   padding: 0;
 }
 
-img {
-  height: auto;
-  width: 200px;
-}
-
 .header {
   background-color: #1f2937;
 }
@@ -44,7 +39,17 @@ a {
   padding: 30px;
 }
 
+#img-heroSection {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.hero-img {
+  max-width: 30%;
+}
+
 .content {
+  max-width: 30%;
   margin-right: 20px;
 }
 
@@ -72,11 +77,13 @@ a {
 .cards-information {
   display: flex;
   flex-direction: column;
+  margin-bottom: 90px;
 }
 
 .cards-information h2 {
   display: flex;
   justify-content: center;
+  font-size: 36px;
 }
 
 .benefits {
@@ -89,6 +96,10 @@ a {
   display: flex;
   margin-top: 20px;
   gap: 20px;
+}
+
+.cards {
+  max-width: 200px;
 }
 
 .cards img {
@@ -104,5 +115,26 @@ a {
 
 .cards:hover {
   transform: scale(1.05);
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
+}
+
+.container-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 90px;
+}
+
+
+.quote {
+  max-width: 600px;
+  font-size: 30px;
+}
+
+#character {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-weight: 550;
 }
