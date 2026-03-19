@@ -11,14 +11,15 @@
         <nav class="nav-bar">
             <h2>Traveling the World</h2>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#quote">Quote</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero-section">
+    <section id="home" class="hero-section">
         <div class="content">
             <h3>This website is awesome</h3>
             <p>This website has some subtext that goes here under the main title. Its smaller font and the color is lower contrast</p>
@@ -29,48 +30,55 @@
         </div>
     </section>
 
-    <section class="cards-information">
+    <section class="cards-information" id="about">
         <h2>Benefits of Traveling</h2>
         <div class="benefits">
             <div class="img-benefits">
                 <div class="cards">
-                    <img src="./img/tianshu-liu-khQY5Eu-aa0-unsplash.jpg" alt="">
+                    <img src="./img/tianshu-liu-khQY5Eu-aa0-unsplash.jpg" alt="imagem de uma mulher japonesa">
                     <p>Discover new cultures</p>
                 </div>
                 <div class="cards">
-                    <img src="./img/maxim-tolchinskiy-WVoSmts8S_w-unsplash.jpg" alt="">
+                    <img src="./img/maxim-tolchinskiy-WVoSmts8S_w-unsplash.jpg" alt="grupo de pessoas">
                     <p>Develops social skills</p>
                 </div>
                 <div class="cards">
-                    <img src="./img/khara-woods-KR84RpMCb0w-unsplash.jpg"" alt="">
+                    <img src="./img/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="tintas e pincéis ">
                     <p>Stimulates creativity</p>
                 </div>
                 <div class="cards">
-                    <img src="./img/mario-scheibl-FGqy6PbvxD0-unsplash.jpg" alt="">
+                    <img src="./img/mario-scheibl-FGqy6PbvxD0-unsplash.jpg" alt="Elelfante">
                     <p>Expands your worldview</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container-quote">
+    <section class="container-quote" id="quote">
         <div class="quote">
             <p> <i>"The sea is vast so someday, definitely, you'll come across friends to protect you. No one is born into this world to be alone!"</i> </p>
             <p id="character"> <i>- Jaguar D. Saul</i></p>
         </div>
     </section>
 
-    <section class="cfa-section">
+    <section class="cfa-section" id="contact">
         <div class="action">
             <div class="content-action">
-                <p>Quer viajar? A hora é agora! <br> Entra ai top</p>
-                <button class="button-action">Sign up</button>
+                <div class="content-paragraf">
+                    <p id="title">Discover new places and new cultures!</p>
+                    <p>Traveling has many benefits—it’s not just about leisure; it’s something that shapes your mindset, worldview, and even your career. Call us!</p>
+                </div>
+                <div class="content-buttonAct">
+                    <button id="button-action">Sign up</button>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>Copyright ©</p>
+        <p>Copyright © The Odin Project 2026</p>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
